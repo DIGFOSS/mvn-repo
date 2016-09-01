@@ -1,0 +1,19 @@
+<plugin name='extUtils' version='0.1' grailsVersion='3.1.10 &gt; *'>
+  <type>extutils.ExtUtilsGrailsPlugin</type>
+  <grailsVersion>3.1.10 &gt; *</grailsVersion>
+  <authorEmail></authorEmail>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <author>Lukas Fröschl</author>
+  <documentation>http://grails.org/plugin/ext-utils</documentation>
+  <profiles>[web]</profiles>
+  <name>ext-utils</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <title>Ext Utils</title>
+  <version />
+  <resources>
+    <resource>extutils.UrlMappings</resource>
+    <resource>extutils.Application</resource>
+    <resource>test.TestService</resource>
+  </resources>
+</plugin>
