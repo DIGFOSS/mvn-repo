@@ -5,42 +5,6 @@
   <artifactId>extutils</artifactId>
   <version>0.1</version>
   <dependencies>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.38</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.groovy.modules.http-builder</groupId>
-      <artifactId>http-builder</artifactId>
-      <version>0.7.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>joda-time</groupId>
-      <artifactId>joda-time</artifactId>
-      <version>2.9.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.grails.plugins</groupId>
-      <artifactId>quartz</artifactId>
-      <version>2.0.9</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.grails.plugins</groupId>
-      <artifactId>mongodb</artifactId>
-      <version>5.0.0.RC1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.zaxxer</groupId>
-      <artifactId>HikariCP</artifactId>
-      <version>2.4.5</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
   <name>My Plugin</name>
   <description>Full plugin description</description>
